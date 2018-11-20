@@ -4,7 +4,8 @@ footer {
     width: 100%;    
     height: 100%;
     padding: 20px 0;
-    background-image: linear-gradient(to bottom right,#f7f7f7,#eafbff);
+    background-color: rgb(78, 78, 78);
+    /* background-image: linear-gradient(to bottom right,#f7f7f7,#eafbff); */
     color: black;
  }
  footer .footer {
@@ -17,11 +18,11 @@ footer {
      text-transform: uppercase;
      margin-bottom: 20px;
      font-size: 15px;
-     color: #7d97ad;
+     color: #bebebe;
  }
 .footer .col li{ margin-top: 14px;}
-.footer .col a{ color: #7d97ad; font-size: 14px}
-.footer .col li{color: #7d97ad; font-size: 14px}
+.footer .col a{ color: #ffffff; font-size: 14px}
+.footer .col li{color: #ffffff; font-size: 14px}
 .footer .col  i{
     -moz-transform: scaleX(-1);
     -o-transform: scaleX(-1);
@@ -34,13 +35,13 @@ footer .socias-icons a{
     display: flex;
     justify-content: center;
     font-size: 14px;
-    color: #7d97ad;
+    color: #ffffff;
 }
 .socias-icons .rodape p{
     margin-top:10px ;
     text-align: center;
     font-size: 13px;
-    color: #7d97ad;
+    color: #ffffff;
 }
 footer .socias-icons ul{
     display: flex;
@@ -49,8 +50,8 @@ footer .socias-icons ul{
     margin-bottom: 20px; 
 }
 footer .socias-icons li {list-style: none}
-footer .socias-icons i{font-size: 30px;margin: 10px; color: #7d97ad}
-footer .socias-icons i:hover{color: rgb(218, 218, 218)}
+footer .socias-icons i{font-size: 30px;margin: 10px; color: #ffffff}
+footer .socias-icons i:hover{color: #52e476}
 
 
 @media(max-width:902px){

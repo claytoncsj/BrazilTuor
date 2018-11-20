@@ -1,22 +1,23 @@
 section div.visited{
     width: 100%;
-    height: 280px;
-    background-image: url('../../img/visited.jpg');
+    height: 300px;
+    display: flex;
+    background-image: url('../../img/location.jpg');
     background-size: cover;
     background-position: center;
-
 }
-.visited h1{
+section .visited h1{
     text-align: center;
     color: #fff;
-    font-size: var(--title-font-size);
-    padding: 24px
+    font-size: 24px;
+    padding-top: 22px;
+    margin-bottom: 40px;
 }
 
-.visited-mask{
+ section .visited-mask{
     background-color:rgba(11, 90, 158, 0.61);
     width: 100%;
-    height: 100vh;
+    height: 100%;
 }
 
 .visited .visited-locale{

@@ -1,11 +1,10 @@
 
 @import url('variables.css');
 @import url('components/components-intro.css');
+@import url('components/components-search.css');
+@import url('components/components-visited.css');
 @import url('components/components-title.css');
 @import url('components/components-region.css');
-@import url('components/components-visited.css');
 @import url('components/components-footer.css');
 
-/* COMPONENTS CARROSEL VISITED */
-@import url('carrosel-visted/owl.carousel.min.css');
-@import url('carrosel-visted/owl.theme.default.min.css');
+
