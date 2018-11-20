@@ -1,0 +1,67 @@
+footer { 
+    top: 0;
+    bottom: 0;
+    width: 100%;    
+    height: 100%;
+    padding: 20px 0;
+    background-image: linear-gradient(to bottom right,#f7f7f7,#eafbff);
+    color: black;
+ }
+ footer .footer {
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+ }
+ .footer .col{ margin: 50px;}
+ .footer .col  h1{
+     text-transform: uppercase;
+     margin-bottom: 20px;
+     font-size: 15px;
+     color: #7d97ad;
+ }
+.footer .col li{ margin-top: 14px;}
+.footer .col a{ color: #7d97ad; font-size: 14px}
+.footer .col li{color: #7d97ad; font-size: 14px}
+.footer .col  i{
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+}
+footer .socias-icons a{
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    color: #7d97ad;
+}
+.socias-icons .rodape p{
+    margin-top:10px ;
+    text-align: center;
+    font-size: 13px;
+    color: #7d97ad;
+}
+footer .socias-icons ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;  
+    margin-bottom: 20px; 
+}
+footer .socias-icons li {list-style: none}
+footer .socias-icons i{font-size: 30px;margin: 10px; color: #7d97ad}
+footer .socias-icons i:hover{color: rgb(218, 218, 218)}
+
+
+@media(max-width:902px){
+    .footer .col{ margin: 20px; -webkit-transition: var(--animate-default);
+        transition: var(--animate-default)}
+}
+@media(max-width:689px){
+    footer .footer {
+        display: flex;
+        flex-direction: column;
+        margin-left: 50px;
+    }
+    .footer .col{ margin-left: 0; text-align: left}
+}

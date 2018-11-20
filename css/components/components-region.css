@@ -1,0 +1,32 @@
+section .region {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+  }
+  section .region {
+    margin-bottom: 60px;
+  }
+  section .region img {
+    width: 168px;
+    height: 118px;
+    margin: 10px;
+  }
+  section .region img:hover{
+    box-shadow: 0px 1px 30px -1px #271d1d5c;
+  }
+  .region .legend {
+    text-align: center;
+    color: var(--color);
+  }
+  
+  /*  */
+  @media (max-width: 501px) {
+    section .region img {
+      width: 231px;
+      height: 151px;
+    }
+  }
+  
+
+  

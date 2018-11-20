@@ -1,0 +1,40 @@
+section div.visited{
+    width: 100%;
+    height: 280px;
+    background-image: url('../../img/visited.jpg');
+    background-size: cover;
+    background-position: center;
+
+}
+.visited h1{
+    text-align: center;
+    color: #fff;
+    font-size: var(--title-font-size);
+    padding: 24px
+}
+
+.visited-mask{
+    background-color:rgba(11, 90, 158, 0.61);
+    width: 100%;
+    height: 100vh;
+}
+
+.visited .visited-locale{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.visited .col-visited img{
+    width: 206px;
+    height: 110px;
+    padding: 0px 20px;
+}
+.visited .legend{
+    margin: 10px 0 0 0px;
+    text-align: center;
+}
+.visited p {
+    text-align: center;
+    font-size: 12px;
+}

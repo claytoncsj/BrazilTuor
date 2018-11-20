@@ -1,0 +1,107 @@
+/*Import google font*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+/*RESET*/
+*{margin: 0; padding: 0; font-size: 100%; box-sizing: border-box; outline: none; font-family: 'Open Sans', sans-serif;}
+nav, ul{list-style: none;}
+a{text-decoration: none; cursor: pointer; color: #fff;}
+a:hover{opacity: 1;}
+
+/*HEADER*/
+header{ width: 100%; position: absolute; top: 0; left: 0; display: flex; align-items: center;
+padding: 25px 40px; }
+header nav {display: flex;} 
+
+header li a img{width: 30px;}
+
+
+header .menu-option{
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	background-color: rgb(82, 228, 118);
+	width: 18%;
+	height: 100vh;
+	padding: 25px 50px; 
+	transform: translateX(-101%);
+	transition: transform 200ms linear;
+	top: 0;
+	left: 0
+}
+header .menu-option img{width: 30px;}
+header .menu-option li{color: #fff;padding: 10px 0;}
+header  .menu-close{margin-bottom: 20px;}
+header .menu-open{transform: translateX(-0%);}
+
+.menu-profile{
+	margin-top: 30px; 
+	bottom: 20px;
+	position: fixed;
+	flex-direction: row;
+}
+
+.menu-profile li a{
+	text-align: center;
+}
+.menu-profile .menu-btn-login {
+	background-color: rgb(6, 103, 187);
+	padding: 10px 30px;
+}
+@media(max-width: 700px){
+	header{flex-direction: column;}
+	header img{margin-bottom: 15px;}
+}
+
+/*HERO*/
+.hero{
+	background-image: url(../../img/hero.jpg);
+	background-size: cover;
+	background-position: center center;
+	min-height: 100vh; 
+	color: #fff; 
+	z-index: -1;
+	display: flex;
+	justify-content: center; 
+	align-items: center; 
+	flex-direction: column; 
+	text-align: center;
+}
+.hero .hero-mask{
+	/* display: flex;
+	flex-direction: column;
+	justify-content: center; */
+	background-color: rgba(10, 44, 60, 0.56);
+	width: 100%;
+	height: 100vh;
+}
+.hero .profile{margin-top: 10rem;}
+.hero .profile p{margin-bottom:15px; font-size: 16px; }
+.hero select {
+	margin-top: 50px;
+	padding: 13px 80px;
+	margin: 10px -4px 0px -0px;
+	border: 1px solid #fff;
+	color: #7d97ad;
+
+}
+
+.hero input{
+	background-color: rgb(82, 228, 118);
+	border: 1px solid rgb(82, 228, 118);
+	color: #fff;
+	padding: 16px 33px;
+	margin: 0px;
+	cursor: pointer;
+}
+.hero input:hover{
+	background-color:  rgb(106, 238, 139);
+	border: 1px solid  rgb(106, 238, 139);
+}
+.hero h1{font-size: 2.5rem; margin-bottom: 15px;}
+@media(max-width: 700px){
+	.hero h1{font-size: 2.5rem;}
+	.hero h3{font-size: 1.5rem;}
+	.hero .btn{ padding: 15px 30px;}
+}
+
+
+
